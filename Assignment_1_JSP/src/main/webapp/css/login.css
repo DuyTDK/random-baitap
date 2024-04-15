@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+	border-radius: 5px;
+}
+
+body {
+	padding-top: 17%;
+	display: flex;
+	background-color: rgba(245, 245, 245, 255);
+}
+
+a {
+	text-decoration: none;
+	color: rgba(97, 158, 206, 255);
+}
+
+a:visited {
+	color: rgba(97, 158, 206, 255);
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.loginbox {
+	background-color: white;
+	margin: auto;
+	border: 1px solid;
+	width: 400px;
+}
+
+.request {
+	background-color: rgba(245, 245, 245, 255);
+	border-bottom: 1px solid;
+	padding: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+td {
+	padding: 10px 10px 0px;
+}
+
+table, button {
+	width: 100%;
+}
+
+table {
+	padding-right: 5px;
+}
+
+.input, .inputArea {
+	width: 98%;
+	text-align: center;
+}
+
+input {
+	height: 30px;
+	border: 0.5px solid;
+}
+
+.checkbox {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	height: 18px;
+}
+
+.inputArea {
+	padding-left: 10px;
+	text-align: left;
+}
+
+input::placeholder {
+	text-align: left;
+}
+
+.submit {
+	text-align: center;
+	height: 40px;
+	background-color: rgba(92, 184, 92, 255);
+	color: white;
+	border: none;
+}
+
+.link {
+	padding: 5px 10px 10px;
+}
+
+.submit {
+	width: 100%;
+}
