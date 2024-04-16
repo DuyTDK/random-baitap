@@ -1,0 +1,296 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif;
+}
+
+body,html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1,.bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("../img/Header1.jpg");
+    min-height: 100%;
+    opacity: 1.0;
+    margin-top: 5%;
+}
+
+.bgimg-1:hover {
+    opacity: 0.8;
+}
+
+.navtop {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 120%;
+    /* Full width */
+
+}
+
+/* Links inside the navbar */
+.navtop a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navtop a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px;
+    /* Add a top margin to avoid content overlay */
+}
+
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("../img/steep-karst-cliffs-of-el-nido-in-palawan.jpg");
+    min-height: 400px;
+    opacity: 1.0;
+}
+
+.bgimg-3:hover {
+    opacity: 0.8;
+}
+
+
+.siteLogo {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-28%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.siteLogo:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+.contact {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.solomonDrawing{
+    display: flex;
+    width: 100%;
+}
+.uperRow{
+    display: flex;
+}
+.lowerRow{
+    display: flex;
+}
+
+.contactLogo {
+    position: absolute;
+    margin-top: 12%;
+    margin-right: 30%;
+    margin-left: -8%;
+
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contactLogo:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+html {
+    background-color: aqua;
+}
+
+.wholeWeb {
+    margin: 2%;
+    margin-top: 0%;
+    background-color: aliceblue;
+    padding: 1%;
+    margin-bottom: 0%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.Profile{
+    display: flex;
+}
+.ProfileText{
+    width: 70%;
+}
+
+
+.contactInformation{
+    text-align: center;
+}
+
+.myWorkHeader{
+    text-align: center;
+}
+.contactHeader{
+    text-align: center;
+}
+
+.solomonDrawing:hover .img {
+    opacity: 0.3;
+
+}
+
+    .bgimg-1,.bgimg-2,.bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+
+.footer{
+    background-color: #333;
+    padding: 2%;
+    text-align: center;
+}
+.toTheTopBtn{
+    color: aliceblue;
+    padding: 2%;
+    text-decoration: none;
+}
+.MediaButton{
+    color: #f2f2f2;
+    padding: 1%;
+}
+body, html {
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.imgFile{
+   color: white;
+   padding: 2%;
+   margin-top: 80%;
+
+}
+  .solomonDrawing .img {
+    opacity: 1;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+   
+  }
+ 
+  .solomonDrawing .middle1 {
+    transition: .5s ease;
+    opacity: 1;
+    left: 0;
+    margin-left: -100%;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+  .solomonDrawing .middle2 {
+    transition: .5s ease;
+    opacity: 1;
+    left: 0;
+    margin-left: -100%;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+  .solomonDrawing .middle3 {
+    transition: .5s ease;
+    opacity: 1;
+    left: 0;
+    margin-left: -100%;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+  .solomonDrawing .middle4 {
+    transition: .5s ease;
+    opacity: 1;
+    left: 0;
+    margin-left: -100%;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+  .solomonDrawing .middle5 {
+    transition: .5s ease;
+    opacity: 1;
+    left: 0;
+    margin-left: -100%;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+  .solomonDrawing .middle6 {
+    transition: .5s ease;
+    opacity: 1;
+    left: 0;
+    margin-left: -100%;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+  .solomonDrawing .middle7 {
+    transition: .5s ease;
+    opacity: 1;
+    left: 0;
+    margin-left: -100%;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+  .solomonDrawing .middle8 {
+    transition: .5s ease;
+    opacity: 1;
+    left: 0;
+    margin-left: -100%;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+
+
+
+
+  /* .solomonDrawing:hover img {
+    opacity: 0.3;
+  } */
+  
+  /* .solomonDrawing:hover img {
+    opacity: 1;
+  } */
